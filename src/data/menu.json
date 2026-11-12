@@ -1,0 +1,138 @@
+{
+  "restaurant": {
+    "name": "مقهى القلعة",
+    "tagline": "قهوة وحلو على طلعة القلعة",
+    "hours": "كل يوم من 9 الصبح لـ 12 بالليل",
+    "phone": "+963 982 681 179",
+    "address": "مصياف، طريق القلعة",
+    "currency": "ل.س"
+  },
+  "theme": {
+    "accent": "#2E6B4F",
+    "bg": "#EEF1EC",
+    "price": "#7A5C0E"
+  },
+  "ordering": {
+    "enabled": true,
+    "whatsapp": "963982681179",
+    "dineIn": true,
+    "dineInMode": "whatsapp",
+    "pickup": true,
+    "delivery": true,
+    "deliveryFee": 5000
+  },
+  "categories": [
+    {
+      "id": "hot",
+      "name": "مشروبات ساخنة",
+      "items": [
+        {
+          "id": "h1",
+          "name": "قهوة عربية",
+          "description": "بالهيل، فنجان وسط",
+          "price": 5000,
+          "image": null,
+          "available": true
+        },
+        {
+          "id": "h2",
+          "name": "إسبريسو",
+          "description": "",
+          "price": 7000,
+          "image": null,
+          "available": true
+        },
+        {
+          "id": "h3",
+          "name": "لاتيه",
+          "description": "إسبريسو مع حليب مبخّر",
+          "price": 12000,
+          "image": null,
+          "available": true
+        },
+        {
+          "id": "h4",
+          "name": "متة",
+          "description": "مع ماء سخن حسب الطلب",
+          "price": 8000,
+          "image": null,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "name": "مشروبات باردة",
+      "items": [
+        {
+          "id": "c1",
+          "name": "عصير برتقال",
+          "description": "طازة",
+          "price": 10000,
+          "image": null,
+          "available": true
+        },
+        {
+          "id": "c2",
+          "name": "موهيتو",
+          "description": "نعنع وليمون وصودا",
+          "price": 14000,
+          "image": null,
+          "available": false
+        },
+        {
+          "id": "c3",
+          "name": "آيس كوفي",
+          "description": "",
+          "price": 13000,
+          "image": null,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "sweets",
+      "name": "حلويات",
+      "items": [
+        {
+          "id": "s1",
+          "name": "كيك الشوكولا",
+          "description": "قطعة",
+          "price": 15000,
+          "image": null,
+          "available": true
+        },
+        {
+          "id": "s2",
+          "name": "مهلبية",
+          "description": "بالفستق الحلبي",
+          "price": 9000,
+          "image": null,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "argileh",
+      "name": "أراكيل",
+      "items": [
+        {
+          "id": "a1",
+          "name": "أركيلة تفاحتين",
+          "description": "",
+          "price": 20000,
+          "image": null,
+          "available": true
+        },
+        {
+          "id": "a2",
+          "name": "أركيلة نعنع",
+          "description": "",
+          "price": 20000,
+          "image": null,
+          "available": true
+        }
+      ]
+    }
+  ]
+}
